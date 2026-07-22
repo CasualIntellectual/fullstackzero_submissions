@@ -29,7 +29,7 @@ const Content = (props) => {
   )
 }
 
-const Footer = (props) => {
+const Total = (props) => {
   return (
     <div>
       <p>
@@ -55,7 +55,7 @@ const App = () => {
     <div>
       <Header course={course} />
       <Content information={information}/>
-      <Footer information={information}/>
+      <Total information={information}/>
     </div>
   )
 }
